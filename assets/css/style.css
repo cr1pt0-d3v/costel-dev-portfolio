@@ -1,0 +1,17 @@
+p {
+  font-size: 16px;
+}
+
+.avatar img {
+  max-width: 160px;
+  width: 100%;
+  transform: translate3d(0, -40%, 0);
+}
+
+img {
+  width: 60%;
+}
+
+.profile-title {
+  border-bottom: 5px solid #9c27b0;
+}
