@@ -15,3 +15,6 @@ img {
 .profile-title {
   border-bottom: 5px solid #9c27b0;
 }
+#portfolio img {
+  width: 100%;
+}

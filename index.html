@@ -37,7 +37,7 @@
   <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top navbar-expand-lg" color-on-scroll="100">
     <div class="container">
       <div class="navbar-translate">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand title" href="#home">
           cC.dev </a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false"
           aria-label="Toggle navigation">
@@ -63,20 +63,22 @@
   </nav>
 
   <!-- Header -->
-  <div id="home" class="page-header header-filter" data-parallax="true"
-    style="background-image: url('assets/img/dusseldorf-night.jpg')">
-    <div class="container">
-      <div class="row">
-        <div class="col-md-8 ml-auto mr-auto">
-          <div class="brand text-center">
-            <h1>Costel Cuconoiu</h1>
-            <h3 class="title text-center">Software Developer</h3>
+  <section id="home">
+    <div class="page-header header-filter" data-parallax="true"
+      style="background-image: url('assets/img/dusseldorf-night.jpg')">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-8 ml-auto mr-auto">
+            <div class="brand text-center">
+              <h1>Costel Cuconoiu</h1>
+              <h3 class="title text-center">Software Developer</h3>
+            </div>
           </div>
         </div>
       </div>
     </div>
-  </div>
-  <!--  -->
+  </section>
+  <!-- Main Container -->
   <div class="main main-raised">
     <div class="container">
       <div class="row justify-content-center">
@@ -88,138 +90,208 @@
             <div class="name text-center">
               <h3 class="title">Costel Cuconoiu</h3>
               <h6>Software Developer</h6>
-              <a href="#pablo" class="btn btn-just-icon btn-link btn-dribbble"><i class="fa fa-dribbble"></i></a>
-              <a href="#pablo" class="btn btn-just-icon btn-link btn-twitter"><i class="fa fa-twitter"></i></a>
-              <a href="#pablo" class="btn btn-just-icon btn-link btn-pinterest"><i class="fa fa-pinterest"></i></a>
+              <!-- Social Icons -->
+              <a href="https://github.com/costel-dev" class="btn btn-just-icon btn-link btn-github" target="_blank"><i
+                  class="fa fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/costel-cuconoiu/" class="btn btn-just-icon btn-link btn-linkedin"
+                target="_blank"><i class="fa fa-linkedin-square"></i></a>
+              <a href="https://join.slack.com/t/costel-dev/shared_invite/enQtOTQ1NDgxNjMxMjY3LTNiNWI2MjFiYTEwZWMwZTQ0MDUzNDViODI0YzllM2M2NGYxNDM3Mjk0NDY1N2I4NzE5YzZkNzE1NzFkNzM4YjI"
+                target="_blank" class="btn btn-just-icon btn-link btn-slack"><i class="fa fa-slack"></i></a>
+              <a href="#" class="btn btn-just-icon btn-link btn-xing" target="_blank"><i class=" fa fa-xing"></i></a>
+              <a href="https://twitter.com/DevCostel" class="btn btn-just-icon btn-link btn-twitter" target="_blank"><i
+                  class="fa fa-twitter"></i></a>
             </div>
           </div>
         </div>
       </div>
     </div>
+
     <!-- About Me -->
-    <div id="about-me" class="section mb-5">
+    <section id="about-me">
+      <div class="section mb-5">
+        <div class="container">
+          <div class="row justify-content-around align-items-center">
+            <div class=" col-md-6">
+              <div class="row justify-content-around">
+                <img src="./assets/img/cc_24jan20-0975.jpg" alt="..." class="img-thumbnail img-raised">
+              </div>
+            </div>
+            <div class="col-md-5 row align-items-center">
+              <h2 class="title text-left">About Me</h2>
+              <h5 class="text-on-back"></h5>
+              <p class="profile-description text-left">A software developer graduate who is seeking to find the
+                opportunity to work in a fun and challenging
+                working environment that will encourage him to improve and learn new and necessary skills as well as be
+                motivated by the company to do his best not only for helping himself but to help the company also to
+                achieve their goals.</p>
+              <div class="btn-wrapper">
+                <button href="javascript:void(0)" class="btn btn-simple btn-primary">
+                  <i class="tim-icons icon-book-bookmark"></i>Download CV
+                </button>
+                <button href="javascript:void(0)" class="btn btn-simple btn-info">
+                  <i class="tim-icons icon-bulb-63"></i> Portfolio
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Skills -->
+    <section id="skills" class=" pt-5 mb-5">
       <div class="container">
-        <div class="row justify-content-around align-items-center"">
-          <div class=" col-md-6">
-          <div class="row justify-content-around">
-            <img src="./assets/img/cc_24jan20-0975.jpg" alt="..." class="img-thumbnail img-raised">
+        <h2 class="title text-center">Skills</h2>
+        <div class="progress-container progress-danger mt-5">
+          <span class="progress-badge">HTML5</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
+              aria-valuemax="100" style="width: 90%;">
+            </div>
           </div>
         </div>
-        <div class="col-md-5 row align-items-center">
-          <h1 class="profile-title text-left">About Me</h1>
-          <h5 class="text-on-back"></h5>
-          <p class="profile-description text-left">A software developer graduate who is seeking to find the
-            opportunity to work in a fun and challenging
-            working environment that will encourage him to improve and learn new and necessary skills as well as be
-            motivated by the company to do his best not only for helping himself but to help the company also to
-            achieve their goals.</p>
-          <div class="btn-wrapper">
-            <button href="javascript:void(0)" class="btn btn-simple btn-primary">
-              <i class="tim-icons icon-book-bookmark"></i>Download CV
-            </button>
-            <button href="javascript:void(0)" class="btn btn-simple btn-info">
-              <i class="tim-icons icon-bulb-63"></i> Portfolio
-            </button>
+
+        <div class="progress-container">
+          <span class="progress-badge">CSS3</span>
+          <div class="progress">
+            <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
+              style="width: 75%;">
+            </div>
           </div>
         </div>
-      </div>
-    </div>
-  </div>
 
-  <!-- Skills -->
-
-  <div id="skills" class="container">
-    <h1 class="profile-title text-left mb-5">Skills</h1>
-    <div class="progress-container progress-danger">
-      <span class="progress-badge">HTML5</span>
-      <div class="progress">
-        <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="90" aria-valuemin="0"
-          aria-valuemax="100" style="width: 90%;">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container">
-      <span class="progress-badge">CSS3</span>
-      <div class="progress">
-        <div class="progress-bar" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"
-          style="width: 75%;">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container progress-primary">
-      <span class="progress-badge">Bootstrap</span>
-      <div class="progress">
-        <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0"
-          aria-valuemax="100" style="width: 50%;">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container progress-warning">
-      <span class="progress-badge">JavaScript</span>
-      <div class="progress">
-        <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0"
-          aria-valuemax="100" style="width: 65%;">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container progress-info">
-      <span class="progress-badge">jQuery</span>
-      <div class="progress">
-        <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0"
-          aria-valuemax="100" style="width: 80%;">
-        </div>
-      </div>
-    </div>
-
-    <div class="progress-container progress-success">
-      <span class="progress-badge">React JS</span>
-      <div class="progress">
-        <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="35" aria-valuemin="0"
-          aria-valuemax="100" style="width: 35%;">
-        </div>
-      </div>
-    </div>
-  </div>
-
-  <!-- Contact Form -->
-  <div id="contact" class="col-md-8 ml-auto mr-auto mt-5">
-    <h2 class="text-center title">Get in touch</h2>
-    <h4 class="text-center description">Divide details about your product or agency work into parts.
-      Write a few
-      lines about each one and contact us about any further collaboration. We will responde get back
-      to you in a
-      couple of hours.</h4>
-    <form class="contact-form">
-      <div class="row">
-        <div class="col-md-6">
-          <div class="form-group bmd-form-group">
-            <label class="bmd-label-floating">Your Name</label>
-            <input type="email" class="form-control">
+        <div class="progress-container progress-primary">
+          <span class="progress-badge">Bootstrap</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-primary" role="progressbar" aria-valuenow="50" aria-valuemin="0"
+              aria-valuemax="100" style="width: 50%;">
+            </div>
           </div>
         </div>
-        <div class="col-md-6">
-          <div class="form-group bmd-form-group">
-            <label class="bmd-label-floating">Your Email</label>
-            <input type="email" class="form-control">
+
+        <div class="progress-container progress-warning">
+          <span class="progress-badge">JavaScript</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="65" aria-valuemin="0"
+              aria-valuemax="100" style="width: 65%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container progress-info">
+          <span class="progress-badge">jQuery</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="80" aria-valuemin="0"
+              aria-valuemax="100" style="width: 80%;">
+            </div>
+          </div>
+        </div>
+
+        <div class="progress-container progress-success">
+          <span class="progress-badge">React JS</span>
+          <div class="progress">
+            <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="35" aria-valuemin="0"
+              aria-valuemax="100" style="width: 35%;">
+            </div>
           </div>
         </div>
       </div>
-      <div class="form-group bmd-form-group">
-        <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
-        <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
-      </div>
-      <div class="row">
-        <div class="col-md-4 ml-auto mr-auto text-center">
-          <button class="btn btn-primary btn-raised">
-            Send Message
-          </button>
+    </section>
+
+    <!-- Portfolio -->
+    <section id="portfolio" class="mt-5 pt-5 mb-5">
+      <div class="container">
+        <h2 class="title text-center mt-5 mb-5">Portfolio</h2>
+        <div class="row justify-content-around align-items-around">
+          <!-- 1st Project -->
+          <div class=" col-md-3 m-3">
+            <div class="row justify-content-around">
+              <img src="./assets/img/math-calculator.jpg" alt="..." class="img-fluid rounded img-raised">
+            </div>
+          </div>
+          <!-- 2nd Project -->
+          <div class=" col-md-3 m-3">
+            <div class="row justify-content-around ">
+              <img src="./assets/img/thank-you.png" alt="..." class="img-fluid rounded img-raised">
+            </div>
+          </div>
+          <!-- 3rd Project -->
+          <div class=" col-md-3 m-3">
+            <div class="row justify-content-around ">
+              <img src="./assets/img/blackjack.jpg" alt="..." class="img-fluid rounded img-raised">
+            </div>
+          </div>
+          <!-- 4th Project -->
+          <div class=" col-md-5 m-3">
+            <div class="row justify-content-around ">
+              <img src="./assets/img/background-generator.jpg" alt="..." class="img-fluid rounded img-raised">
+            </div>
+          </div>
+          <!-- 5th Project -->
+          <div class=" col-md-5 m-3">
+            <div class="row justify-content-around ">
+              <img src="./assets/img/smoke-colour.jpg" alt="..." class="img-fluid rounded img-raised">
+            </div>
+          </div>
+
         </div>
       </div>
-    </form>
+    </section>
+
+    <!-- Contact Form -->
+    <section id="contact">
+      <di class="col-md-8 ml-auto mr-auto mt-5">
+        <h2 class="text-center title">Get in touch</h2>
+        <div class="container">
+          <div class="row align-items-center">
+            <div class="col">
+              <div class="container">
+                <div class="row align-items-center">
+                  <div class="form-group">
+                    <h6>Phone</h6>
+                    <p>+49 176 2326 7853</p>
+                    <h6>Email address</h6>
+                    <p>costelcuconoiu@gmail.com</p>
+                    <h6>Location</h6>
+                    <p>Bungertstrasse 14, 47053, Duisburg</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <h4 class="text-center description"></h4>
+              <form class="contact-form">
+                <div class="row align-items-center">
+                  <div class="col-md-6">
+                    <div class="form-group bmd-form-group">
+                      <label class="bmd-label-floating">Your Name</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+                  <div class="col-md-6">
+                    <div class="form-group bmd-form-group">
+                      <label class="bmd-label-floating">Your Email</label>
+                      <input type="email" class="form-control">
+                    </div>
+                  </div>
+                </div>
+                <div class="form-group bmd-form-group">
+                  <label for="exampleMessage" class="bmd-label-floating">Your Message</label>
+                  <textarea type="email" class="form-control" rows="4" id="exampleMessage"></textarea>
+                </div>
+                <div class="row">
+                  <div class="col-md-4 ml-auto mr-auto text-center">
+                    <button class="btn btn-primary btn-raised">
+                      Send Message
+                    </button>
+                  </div>
+                </div>
+              </form>
+            </div>
+          </div>
+        </div>
+      </di>
+    </section>
   </div>
   </div>
 
@@ -229,9 +301,15 @@
       <nav class="float-left">
         <ul>
           <li>
-            <a href="https://www.creative-tim.com/">
-              Creative Tim
-            </a>
+            <a href="https://github.com/costel-dev" class="btn btn-just-icon btn-link btn-github" target="_blank"><i
+                class="fa fa-github"></i></a>
+            <a href="https://www.linkedin.com/in/costel-cuconoiu/" class="btn btn-just-icon btn-link btn-linkedin"
+              target="_blank"><i class="fa fa-linkedin-square"></i></a>
+            <a href="https://join.slack.com/t/costel-dev/shared_invite/enQtOTQ1NDgxNjMxMjY3LTNiNWI2MjFiYTEwZWMwZTQ0MDUzNDViODI0YzllM2M2NGYxNDM3Mjk0NDY1N2I4NzE5YzZkNzE1NzFkNzM4YjI"
+              target="_blank" class="btn btn-just-icon btn-link btn-slack"><i class="fa fa-slack"></i></a>
+            <a href="#" class="btn btn-just-icon btn-link btn-xing" target="_blank"><i class=" fa fa-xing"></i></a>
+            <a href="https://twitter.com/DevCostel" class="btn btn-just-icon btn-link btn-twitter" target="_blank"><i
+                class="fa fa-twitter"></i></a>
           </li>
         </ul>
       </nav>
@@ -240,10 +318,11 @@
         <script>
           document.write(new Date().getFullYear())
         </script>, made with <i class="material-icons">favorite</i> by
-        <a href="https://www.creative-tim.com/" target="blank">Costel Cuconoiu</a> for a better web.
+        <a href="https://www.creative-tim.com/" target="_blank">Costel Cuconoiu</a> for a better web.
       </div>
     </div>
   </footer>
+
   <!--   Core JS Files   -->
   <script src="assets/js/core/jquery.min.js" type="text/javascript"></script>
   <script src="assets/js/core/popper.min.js" type="text/javascript"></script>
