@@ -30,3 +30,107 @@ img {
 nav.float-left {
   padding: 10px 0px;
 }
+
+/* Language Skills */
+.circle-wrap {
+  margin: 20px auto;
+  width: 150px;
+  height: 150px;
+  background: #e6e2e7;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask,
+.circle-wrap .circle .fill-romanian,
+.circle-wrap .circle .fill-english,
+.circle-wrap .circle .fill-german,
+.circle-wrap .circle .fill-spanish {
+  width: 150px;
+  height: 150px;
+  position: absolute;
+  border-radius: 50%;
+}
+
+.circle-wrap .circle .mask {
+  clip: rect(0px, 150px, 150px, 75px);
+}
+
+.circle-wrap .circle .mask .fill-romanian,
+.circle-wrap .circle .mask .fill-english,
+.circle-wrap .circle .mask .fill-german,
+.circle-wrap .circle .mask .fill-spanish {
+  clip: rect(0px, 75px, 150px, 0px);
+  background-color: #9c27b0;
+}
+/* Romanian Progres */
+.circle-wrap .circle .mask.full.romanian,
+.circle-wrap .circle .fill-romanian {
+  animation: fill-romanian ease-in-out 4s;
+  transform: rotate(170deg);
+}
+@keyframes fill-romanian {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(170deg);
+  }
+}
+/* English Progres */
+.circle-wrap .circle .mask.full.english,
+.circle-wrap .circle .fill-english {
+  animation: fill-english ease-in-out 4s;
+  transform: rotate(140deg);
+}
+@keyframes fill-english {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(140deg);
+  }
+}
+/* German Progres */
+.circle-wrap .circle .mask.full.german,
+.circle-wrap .circle .fill-german {
+  animation: fill-german ease-in-out 4s;
+  transform: rotate(90deg);
+}
+@keyframes fill-german {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(90deg);
+  }
+}
+/* Spanish Progres */
+.circle-wrap .circle .mask.full.spanish,
+.circle-wrap .circle .fill-spanish {
+  animation: fill-spanish ease-in-out 4s;
+  transform: rotate(40deg);
+}
+@keyframes fill-spanish {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(40deg);
+  }
+}
+
+.circle-wrap .inside-circle {
+  width: 130px;
+  height: 130px;
+  border-radius: 50%;
+  background: #fff;
+  line-height: 130px;
+  text-align: center;
+  margin-top: 10px;
+  margin-left: 10px;
+  position: absolute;
+  z-index: 100;
+  font-weight: 700;
+  font-size: 2em;
+}
+/* ************************** */
