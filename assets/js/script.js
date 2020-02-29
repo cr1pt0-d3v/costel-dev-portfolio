@@ -26,3 +26,15 @@ function makeProgress() {
   }
   setTimeout("makeProgress()", 500);
 }
+
+/* Smooth Scrolling */
+$(function() {
+  var navLink = $("li a");
+  navLink.on("click", function(event) {
+    event.preventDefault();
+    var target = $(this).attr("href");
+    var top = $(target).offset().top;
+    $("html,body").animate({ scrollTop: top }, 500);
+  });
+});
+/* ********************************************** */
