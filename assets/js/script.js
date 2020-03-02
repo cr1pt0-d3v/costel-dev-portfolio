@@ -34,7 +34,7 @@ $(function() {
     event.preventDefault();
     var target = $(this).attr("href");
     var top = $(target).offset().top;
-    $("html,body").animate({ scrollTop: top }, 500);
+    $("html, body").animate({ scrollTop: top }, 700);
   });
 });
 /* ********************************************** */
