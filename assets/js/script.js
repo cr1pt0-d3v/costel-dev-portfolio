@@ -24,7 +24,7 @@ function makeProgress() {
     i = i + 1;
     $(".react-bar").css("width", i + "%");
   }
-  setTimeout("makeProgress()", 500);
+  setTimeout("makeProgress()", 300);
 }
 
 /* Smooth Scrolling */

@@ -7,6 +7,9 @@ nav {
 .navbar .title {
   margin: 25px 16px 25px 0px;
 }
+.nav-item:hover {
+  color: #00bcd4;
+}
 p {
   font-size: 16px;
 }
