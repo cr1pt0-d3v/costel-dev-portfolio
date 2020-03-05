@@ -1,3 +1,4 @@
+/* Dinamic Progress Bar */
 let i = 0;
 function makeProgress() {
   if (i < 90) {
@@ -26,6 +27,7 @@ function makeProgress() {
   }
   setTimeout("makeProgress()", 300);
 }
+/* ********************************************** */
 
 /* Smooth Scrolling */
 $(function() {
