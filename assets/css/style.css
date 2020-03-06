@@ -1,5 +1,13 @@
-body {
-  scroll-behavior: smooth;
+#holder {
+  position: relative;
+  z-index: 4;
+}
+
+.text {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  right: 25%;
 }
 nav {
   height: 80px;

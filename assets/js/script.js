@@ -40,3 +40,171 @@ $(function() {
   });
 });
 /* ********************************************** */
+/*  */
+$(document).ready(function() {
+  var entries = [
+    {
+      image: "./assets/vectorPL/bootstrap.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/code.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/css3.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/git.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/html5.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/javascript.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/jquery.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/mongodb.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/mysql.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/nodejs.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/reactjs.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/vscode.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/bootstrap.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/code.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/css3.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/git.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/html5.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/javascript.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/jquery.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/mongodb.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/mysql.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/nodejs.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/reactjs.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    },
+    {
+      image: "./assets/vectorPL/vscode.png",
+      width: "70",
+      height: "70",
+      target: "_top"
+    }
+  ];
+
+  var settings = {
+    entries: entries,
+    width: 780,
+    height: 780,
+    radius: "80%",
+    radiusMin: 75,
+    bgDraw: true,
+    bgColor: "transparent",
+    opacityOver: 1.0,
+    opacityOut: 0.1,
+    opacitySpeed: 6,
+    fov: 800,
+    speed: 1
+  };
+
+  //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
+  $("#holder").svg3DTagCloud(settings);
+});
+/*  */
