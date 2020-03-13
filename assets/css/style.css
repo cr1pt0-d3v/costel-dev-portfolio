@@ -32,6 +32,10 @@ img {
   width: 60%;
 }
 
+.preview {
+  opacity: 0;
+}
+
 .profile-title {
   border-bottom: 5px solid #9c27b0;
 }
@@ -39,7 +43,7 @@ img {
   width: 100%;
 }
 #portfolio img:hover {
-  opacity: 0.3;
+  opacity: 0.5;
 }
 nav.float-left {
   padding: 10px 0px;
@@ -148,3 +152,13 @@ nav.float-left {
   font-size: 2em;
 }
 /* ************************** */
+
+/* Contact Icons */
+#contact .fa {
+  color: #9c27b0;
+  font-size: larger;
+}
+
+.fa:hover {
+  color: #00bcd4;
+}

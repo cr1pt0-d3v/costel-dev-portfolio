@@ -40,7 +40,8 @@ $(function() {
   });
 });
 /* ********************************************** */
-/*  */
+
+/* Skills animation gravitation */
 $(document).ready(function() {
   var entries = [
     {
@@ -207,4 +208,21 @@ $(document).ready(function() {
   //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
   $("#holder").svg3DTagCloud(settings);
 });
-/*  */
+/* ******************************************************** */
+
+/* Grid Animation */
+$(function() {
+  var img1 = $(".preview");
+  $(".grid-image").hover(function(e) {
+    e.preventDefault();
+    if ($(this).hasClass("grid-image")) {
+      var obj1 = img1.gridImageAnimation({
+        mode: "fadeIn",
+        complete: function() {
+          $(".grid-image").addClass("complete");
+        }
+      });
+    }
+  });
+});
+/* ******************************************************** */
