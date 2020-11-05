@@ -205,7 +205,6 @@ $(document).ready(function() {
     speed: 1
   };
 
-  //var svg3DTagCloud = new SVG3DTagCloud( document.getElementById( 'holder'  ), settings );
   $("#holder").svg3DTagCloud(settings);
 });
 /* ******************************************************** */
